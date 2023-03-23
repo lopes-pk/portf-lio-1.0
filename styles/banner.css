@@ -1,0 +1,16 @@
+.banner-imagem__box{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(164deg, rgba(211, 137, 73, 0.807),  black 60%) ;
+    height: 28vh;
+    width: 100%;
+}
+
+.banner-imagem{
+    background: url(../images/índice-removebg-preview.png) no-repeat;
+    width: 60vw;
+    height: 100%;
+    opacity: 0.96;
+}
+    
+
