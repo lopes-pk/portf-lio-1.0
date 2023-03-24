@@ -7,10 +7,22 @@
 }
 
 .banner-imagem{
-    background: url(../images/índice-removebg-preview.png) no-repeat;
-    width: 60vw;
+    /* background: url(../images/índice-removebg-preview.png) no-repeat; */
+    width: 60%;
     height: 100%;
     opacity: 0.96;
 }
     
 
+@media screen and (min-width:500px) {
+    .banner-imagem__box{
+        height: 36vh;
+        background: linear-gradient(180deg, rgba(211, 137, 73, 0.807),  black 80%);
+
+        justify-content: center;
+    }
+    .banner-imagem{
+        width: 18%;
+    }
+       
+}

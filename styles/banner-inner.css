@@ -1,10 +1,11 @@
-
-
-.banner-inner__box{
-        
+.banner-inner__box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
 }
 
-.banner-inner-texto h2 {
+.banner-inner__container h2 {
     text-transform: uppercase;
     font-size: 30px;
     color: white;
@@ -12,7 +13,7 @@
     font-weight: 500;
 }
 
-.banner-inner-texto p {
+.banner-inner__container p {
     margin-top: 40px;
     text-transform: uppercase;
     font-size: 16px;
@@ -25,7 +26,7 @@
 
 .banner-inner-botoes {
     margin-top: 60px;
-    
+
 }
 
 .banner-inner-botoes button {
@@ -52,4 +53,39 @@
     text-decoration: underline;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+}
+
+.imagem-hallowen__container {
+    margin-right: 5vw;
+}
+
+.imagem-hallowen {
+    width: 400px;
+    height: 360px;
+}
+
+@media screen and (min-width:500px) {
+    .banner-inner__container {
+        width: 30vw;
+        padding-top: 6px;
+    }
+
+    .banner-inner__container h2 {
+        font-size: 50px;
+    }
+
+    .banner-inner__container p {
+        font-size: 20px;
+    }
+
+    .banner-inner-botoes button {
+        width: 130px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .banner-inner-botoes a {
+        font-size: 16px;
+    }
+
 }

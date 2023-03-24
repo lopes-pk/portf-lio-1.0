@@ -31,9 +31,28 @@
     display: flex;
     margin-top: 8vh;
     justify-content: space-between;
+    animation: infinitex .6s  ;
+    animation-fill-mode: forwards;
+    transform: translateX(-200px);
+   
 }
 
 .tools_container img{
     width: 50px;
+}
+
+@keyframes infinitex {
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+@media screen and (min-width:500px){
+
 }
 
