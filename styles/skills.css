@@ -1,8 +1,8 @@
-.tec_box{
+.skills_box{
     
 }
 
-.tec_box h2{
+.skills_box h2{
     margin-top:11vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -25,5 +25,15 @@
    
     width: 50px;
     height: 50px;
+}
+
+.tools_container{
+    display: flex;
+    margin-top: 8vh;
+    justify-content: space-between;
+}
+
+.tools_container img{
+    width: 50px;
 }
 

@@ -1,6 +1,7 @@
 @import url(styles/banner.css);
 @import url(styles/banner-inner.css);
 @import url(styles/skills.css);
+@import url(styles/projects.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 :root{
