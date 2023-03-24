@@ -1,3 +1,3 @@
-# portf-lio-1.0
+# PORTFOLIO_1.0
 
-<i class="fa-sharp fa-solid fa-traffic-cone"></i> <strong> EM CONSTRUÇÃO </strong> <i class="fa-sharp fa-solid fa-traffic-cone"></i>
+<i class="fa-sharp fa-solid fa-traffic-cone"></i> EM CONSTRUÇÃO  <i class="fa-sharp fa-solid fa-traffic-cone"></i>
