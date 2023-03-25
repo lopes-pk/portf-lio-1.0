@@ -39,6 +39,8 @@
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    cursor:pointer;
+    background: white;
 }
 
 .banner-inner-botoes button:active {
@@ -53,6 +55,18 @@
     text-decoration: underline;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    cursor:pointer;
+}
+
+.banner-inner-botoes a:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition:100ms;
+}
+
+
+.banner-inner-botoes button:hover{
+    transition: 200ms;
+    background:rgba(255, 255, 255, 0.5);
 }
 
 .imagem-hallowen__container {

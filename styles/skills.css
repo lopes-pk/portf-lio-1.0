@@ -31,8 +31,8 @@
     display: flex;
     margin-top: 8vh;
     justify-content: space-between;
-    animation: infinitex .6s  ;
-    animation-fill-mode: forwards;
+    animation: infiniteRight 4s infinite ;
+    animation-fill-mode: ease-in-out;
     transform: translateX(-200px);
    
 }
@@ -41,14 +41,14 @@
     width: 50px;
 }
 
-@keyframes infinitex {
+@keyframes infiniteRight {
     from{
         opacity:0;
     }
 
     to{
-        opacity: 1;
-       transform: translateX(0);
+       opacity: 1;
+       transform: translateX(100px);
     }
 }
 
